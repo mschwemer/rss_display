@@ -222,6 +222,7 @@ class SimplePie_Parse_Date
 		'jan' => 1,
 		'feb' => 2,
 		'mär' => 3,
+		'mrz' => 3,
 		'apr' => 4,
 		'mai' => 5,
 		'jun' => 6,
