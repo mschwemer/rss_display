@@ -57,7 +57,7 @@ class TceForms extends AbstractFormElement
             }
 
             $output = sprintf('<select name="data[tt_content][%s][pi_flexform][data][sDEF][lDEF][settings.template][vDEF]">%s</select>',
-                $params['row']['uid'],
+                $row['uid'],
                 implode("\n", $options)
             );
         }
